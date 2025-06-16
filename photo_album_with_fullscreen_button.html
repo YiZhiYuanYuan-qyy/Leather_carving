@@ -66,7 +66,8 @@
       effect: 'slide',
     });
 
-    document.getElementById('fullscreenBtn').addEventListener('click', () => {
+    const btn = document.getElementById('fullscreenBtn');
+    btn.addEventListener('click', () => {
       const elem = document.documentElement;
       if (elem.requestFullscreen) {
         elem.requestFullscreen();
@@ -74,6 +75,23 @@
         elem.webkitRequestFullscreen();
       } else if (elem.msRequestFullscreen) {
         elem.msRequestFullscreen();
+      }
+    });
+
+    // Hide fullscreen button after entering fullscreen
+    document.addEventListener('fullscreenchange', () => {
+      if (document.fullscreenElement) {
+        btn.style.display = 'none';
+      }
+    });
+    document.addEventListener('webkitfullscreenchange', () => {
+      if (document.webkitFullscreenElement) {
+        btn.style.display = 'none';
+      }
+    });
+    document.addEventListener('msfullscreenchange', () => {
+      if (document.msFullscreenElement) {
+        btn.style.display = 'none';
       }
     });
   </script>
