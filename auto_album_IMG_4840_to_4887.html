@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Slideshow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            background: #000;
+        }
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #000;
+        }
+        .swiper-slide img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="IMG_4840.JPG" alt="IMG_4840"></div>
+            <div class="swiper-slide"><img src="IMG_4841.JPG" alt="IMG_4841"></div>
+            <div class="swiper-slide"><img src="IMG_4842.JPG" alt="IMG_4842"></div>
+            <div class="swiper-slide"><img src="IMG_4843.JPG" alt="IMG_4843"></div>
+            <div class="swiper-slide"><img src="IMG_4844.JPG" alt="IMG_4844"></div>
+            <div class="swiper-slide"><img src="IMG_4845.JPG" alt="IMG_4845"></div>
+            <div class="swiper-slide"><img src="IMG_4846.JPG" alt="IMG_4846"></div>
+            <div class="swiper-slide"><img src="IMG_4847.JPG" alt="IMG_4847"></div>
+            <div class="swiper-slide"><img src="IMG_4848.JPG" alt="IMG_4848"></div>
+            <div class="swiper-slide"><img src="IMG_4849.JPG" alt="IMG_4849"></div>
+            <div class="swiper-slide"><img src="IMG_4850.JPG" alt="IMG_4850"></div>
+            <div class="swiper-slide"><img src="IMG_4851.JPG" alt="IMG_4851"></div>
+            <div class="swiper-slide"><img src="IMG_4852.JPG" alt="IMG_4852"></div>
+            <div class="swiper-slide"><img src="IMG_4853.JPG" alt="IMG_4853"></div>
+            <div class="swiper-slide"><img src="IMG_4854.JPG" alt="IMG_4854"></div>
+            <div class="swiper-slide"><img src="IMG_4855.JPG" alt="IMG_4855"></div>
+            <div class="swiper-slide"><img src="IMG_4856.JPG" alt="IMG_4856"></div>
+            <div class="swiper-slide"><img src="IMG_4857.JPG" alt="IMG_4857"></div>
+            <div class="swiper-slide"><img src="IMG_4858.JPG" alt="IMG_4858"></div>
+            <div class="swiper-slide"><img src="IMG_4859.JPG" alt="IMG_4859"></div>
+            <div class="swiper-slide"><img src="IMG_4860.JPG" alt="IMG_4860"></div>
+            <div class="swiper-slide"><img src="IMG_4861.JPG" alt="IMG_4861"></div>
+            <div class="swiper-slide"><img src="IMG_4862.JPG" alt="IMG_4862"></div>
+            <div class="swiper-slide"><img src="IMG_4863.JPG" alt="IMG_4863"></div>
+            <div class="swiper-slide"><img src="IMG_4864.JPG" alt="IMG_4864"></div>
+            <div class="swiper-slide"><img src="IMG_4865.JPG" alt="IMG_4865"></div>
+            <div class="swiper-slide"><img src="IMG_4866.JPG" alt="IMG_4866"></div>
+            <div class="swiper-slide"><img src="IMG_4867.JPG" alt="IMG_4867"></div>
+            <div class="swiper-slide"><img src="IMG_4868.JPG" alt="IMG_4868"></div>
+            <div class="swiper-slide"><img src="IMG_4869.JPG" alt="IMG_4869"></div>
+            <div class="swiper-slide"><img src="IMG_4870.JPG" alt="IMG_4870"></div>
+            <div class="swiper-slide"><img src="IMG_4871.JPG" alt="IMG_4871"></div>
+            <div class="swiper-slide"><img src="IMG_4872.JPG" alt="IMG_4872"></div>
+            <div class="swiper-slide"><img src="IMG_4873.JPG" alt="IMG_4873"></div>
+            <div class="swiper-slide"><img src="IMG_4874.JPG" alt="IMG_4874"></div>
+            <div class="swiper-slide"><img src="IMG_4875.JPG" alt="IMG_4875"></div>
+            <div class="swiper-slide"><img src="IMG_4876.JPG" alt="IMG_4876"></div>
+            <div class="swiper-slide"><img src="IMG_4877.JPG" alt="IMG_4877"></div>
+            <div class="swiper-slide"><img src="IMG_4878.JPG" alt="IMG_4878"></div>
+            <div class="swiper-slide"><img src="IMG_4879.JPG" alt="IMG_4879"></div>
+            <div class="swiper-slide"><img src="IMG_4880.JPG" alt="IMG_4880"></div>
+            <div class="swiper-slide"><img src="IMG_4881.JPG" alt="IMG_4881"></div>
+            <div class="swiper-slide"><img src="IMG_4882.JPG" alt="IMG_4882"></div>
+            <div class="swiper-slide"><img src="IMG_4883.JPG" alt="IMG_4883"></div>
+            <div class="swiper-slide"><img src="IMG_4884.JPG" alt="IMG_4884"></div>
+            <div class="swiper-slide"><img src="IMG_4885.JPG" alt="IMG_4885"></div>
+            <div class="swiper-slide"><img src="IMG_4886.JPG" alt="IMG_4886"></div>
+            <div class="swiper-slide"><img src="IMG_4887.JPG" alt="IMG_4887"></div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        effect: 'slide',
+      });
+    </script>
+</body>
+</html>
