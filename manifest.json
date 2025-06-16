@@ -1,9 +1,0 @@
-
-{
-  "name": "Photo Album",
-  "short_name": "Album",
-  "start_url": "photo_album_fullscreen.html",
-  "display": "fullscreen",
-  "background_color": "#000000",
-  "theme_color": "#000000"
-}
